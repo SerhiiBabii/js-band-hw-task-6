@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - lts/*
+  - "stable"
 cache:
   directories:
     - node_modules
@@ -14,7 +14,7 @@ deploy:
   provider: pages
   cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: ./build/
+  local_dir: build
   keep_history: true
   on:
     branch: master
