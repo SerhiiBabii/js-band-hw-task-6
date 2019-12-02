@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Ciklum University: JS Band Internship. Homework task 6",
   "author": "Serhii Babii",
+  "homepage": "./",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
