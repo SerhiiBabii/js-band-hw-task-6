@@ -13,8 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "eslint ./src",
-    "deploy": "gh-pages -d build"
+    "lint": "eslint ./src"
   },
   "husky": {
     "hooks": {
