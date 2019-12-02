@@ -7,8 +7,6 @@ cache:
 branches:
   only:
     - master
-install:
-  - npm install
 script:
   - npm run lint
   - npm run build
