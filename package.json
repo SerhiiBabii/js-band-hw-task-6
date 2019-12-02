@@ -13,7 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
@@ -38,6 +39,7 @@
     "eslint-config-react-app": "^5.0.2",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.17.0",
+    "gh-pages": "^2.1.1",
     "husky": "^3.1.0",
     "prettier": "^1.19.1"
   }
